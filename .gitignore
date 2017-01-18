@@ -12,6 +12,7 @@
 node_modules/
 sourceFiles/
 .tmp/
+app/
 
 # OS or Editor folders
 .DS_Store
