@@ -8,6 +8,10 @@
             // background-color: orange;
         }
 
+        .section_image img{
+            width: 18%;
+        }
+
         .carousel-caption{
             display: none;
         }
@@ -17,8 +21,8 @@
 
             p{
             font-size: 1.8rem;
-            margin-left: 5%;
-            margin-right: 5%;
+            margin-left: 2%;
+            margin-right: 2%;
             }
         }
 
@@ -42,13 +46,11 @@
 
             .section_heading{
                 text-align: center;
-                margin-top: 40px;
+                margin-top: 0px;
             }
 
             h2{
                 font-size: 3.6rem;
-                margin-bottom: 10px;
-                padding-bottom: 6px;
                 padding-left: 10%;
                 padding-right: 10%;
 
@@ -101,6 +103,11 @@
         body{
             // background-color: yellow;
         }
+
+        .section_image img{
+            width: 14%;
+        }
+
 
         .intro{
             margin-top: 50px;
@@ -156,6 +163,11 @@
         body{
             // background-color: lightblue;
         }
+
+        .section_image img{
+            width: 16%;
+        }
+
 
       .intro{
             margin-top: 30px;
@@ -214,6 +226,12 @@
             // background-color: pink;
         }
 
+        .section_image img{
+            width: 13%;
+        }
+
+
+
         .intro{
             margin-top: 50px;
 
@@ -254,15 +272,6 @@
         }
 
     }
-
-
-
-
-
-
-
-
-
 
 
 @media (max-width: 1200px) {

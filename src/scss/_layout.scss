@@ -26,8 +26,6 @@
     }
 }
 
-
-
 .section{
     margin-top: 30px;
 }
@@ -67,20 +65,20 @@ h2{
 }
 
 
-.arrow{
-    text-align: center;
-    padding-top: 60px;
-}
-
-
 .ind_sections{
 
-    margin-top: 70px;
+    padding-top: 80px;
     padding-bottom: 30px;
 
     .section_heading{
         text-align: center;
-        margin-top: 90px;
+        margin-top: 8   0px;
+        width: 100%;
+    }
+
+    .icon_section{
+        text-align: center;
+        margin: 0 auto;
     }
 
     h2{
