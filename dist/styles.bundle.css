@@ -1,0 +1,407 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+h2, h3{
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+body{
+    color: #313030;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+h1, h2, h3, h4{
+    font-family: 'Lato', sans-serif;
+}
+
+.section{
+    margin-top: 30px;
+}
+
+.ind_sections{
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.ind_sections .section_heading{
+    text-align: center;
+    margin-top: 8   0px;
+    width: 100%;
+}
+
+.ind_sections .icon_section{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.ind_sections h2{
+    text-align: center;
+    font-size: 4.5rem;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.ind_sections h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #dc143c;
+    margin: 40px 0px 10px 0px;
+    line-height: 2.5rem;
+    font-weight: 700;
+}
+
+.ind_sections p{
+    color: $text-color;
+    font-size: 1.8rem;
+    line-height: 2.65rem;
+}
+
+.ind_sections a{
+    color: #dc143c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Custom, iPhone Retina */
+    @media only screen and (min-width : 320px) {
+
+        body{
+            // background-color: orange;
+        }
+
+        .section_image img{
+            width: 18%;
+        }
+
+        .carousel-caption{
+            display: none;
+        }
+
+        .intro{
+            margin-top: 40px;
+
+            p{
+            font-size: 1.8rem;
+            margin-left: 2%;
+            margin-right: 2%;
+            }
+        }
+
+        .row{
+
+            span{
+            font-size: 1.8rem;
+            }
+
+            p{
+            font-size: 1.6rem;
+            line-height: 2.2rem;
+            }
+        }
+
+
+        .ind_sections{
+
+            margin-top: 0px;
+            padding-bottom: 30px;
+
+            .section_heading{
+                text-align: center;
+                margin-top: 0px;
+            }
+
+            h2{
+                font-size: 3.6rem;
+                padding-left: 10%;
+                padding-right: 10%;
+
+            }
+
+            h3{
+                font-size: 1.8rem;
+                color: $secondarycolour;
+                margin: 30px 0px 10px 0px;
+                line-height: 2.5rem;
+                font-weight: 700;
+            }
+
+            p{
+                color: $text-color;
+                font-size: 1.6rem;
+                line-height: 2.2rem;
+
+            }
+        }
+
+        #footer{
+
+            text-align: center;
+
+        .bio{
+            padding: 30px 10px;
+
+            p{
+            font-size: 1.7rem;
+            line-height: 2.4rem;
+            }
+        }
+
+        .social_icons{
+            padding-left: 15%;
+            padding-right: 15%;
+
+        }
+}
+
+
+    }
+
+
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (min-width : 480px) {
+
+        body{
+            // background-color: yellow;
+        }
+
+        .section_image img{
+            width: 14%;
+        }
+
+
+        .intro{
+            margin-top: 50px;
+
+            p{
+            text-align: center;
+            font-size: 1.9rem;
+            margin-left: 2%;
+            margin-right: 2%;
+            line-height: 2.4rem;
+            }
+
+            span{
+            font-weight: bold;
+            color: $secondarycolour;
+            font-size: 2.4rem;
+            padding-bottom: 20px;
+            display: inline-block;
+            line-height: 2.8rem;
+            }
+        }
+
+
+        .ind_sections{
+            margin-top: 10px;
+        }
+
+
+            .carousel-caption{
+            display: block;
+            h3{
+                font-size: 1.7rem;
+                line-height: 2rem;
+            }
+
+            p{
+            font-size: 1.3rem;
+            margin-left: 2%;
+            margin-right: 2%;
+            }
+        }
+
+            #footer{
+            text-align: center;
+        }
+
+
+
+}
+
+
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+        body{
+            // background-color: lightblue;
+        }
+
+        .section_image img{
+            width: 16%;
+        }
+
+
+      .intro{
+            margin-top: 30px;
+
+            p{
+            text-align: center;
+            font-size: 1.7rem;
+            line-height: 2.2rem;
+            }
+        }
+
+        #main_links img{
+            width: 100%;
+        }
+
+        .carousel-caption{
+            display: block;
+            h3{
+                font-size: 2.2rem;
+                line-height: 2.8rem;
+            }
+
+              p{
+            font-size: 1.8rem;
+            }
+        }
+
+
+        #footer{
+            text-align: left;
+
+            .bio{
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-left: 15px;
+
+             p{
+            font-size: 1.7rem;
+            line-height: 2.4rem;
+                }
+
+            }
+      .social_icons{
+            padding-left: 25%;
+            padding-right: 25%;
+        }
+        }
+
+
+}
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+        body{
+            // background-color: pink;
+        }
+
+        .section_image img{
+            width: 13%;
+        }
+
+
+
+        .intro{
+            margin-top: 50px;
+
+            p{
+            text-align: center;
+            font-size: 1.9rem;
+            margin-left: 15%;
+            margin-right: 15%;
+            line-height: 2.4rem;
+            }
+        }
+
+        #footer{
+
+            .bio{
+                padding-top: 0px;
+                padding-bottom: 00px;
+                padding-left: 15px;
+            }
+
+      .social_icons{
+            padding-left: 0%;
+            padding-right: 0%;
+        }
+        }
+
+
+
+
+
+}
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+                body{
+            // background-color: grey;
+        }
+
+    }
+
+
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+
+
+/*# sourceMappingURL=styles.bundle.map*/
