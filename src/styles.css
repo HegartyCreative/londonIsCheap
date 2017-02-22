@@ -1,3 +1,87 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+h2, h3{
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+body{
+    color: #313030;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+h1, h2, h3, h4{
+    font-family: 'Lato', sans-serif;
+}
+
+.section{
+    margin-top: 30px;
+}
+
+.ind_sections{
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.ind_sections .section_heading{
+    text-align: center;
+    margin-top: 8   0px;
+    width: 100%;
+}
+
+.ind_sections .icon_section{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.ind_sections h2{
+    text-align: center;
+    font-size: 4.5rem;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.ind_sections h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #dc143c;
+    margin: 40px 0px 10px 0px;
+    line-height: 2.5rem;
+    font-weight: 700;
+}
+
+.ind_sections p{
+    color: $text-color;
+    font-size: 1.8rem;
+    line-height: 2.65rem;
+}
+
+.ind_sections a{
+    color: #dc143c;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
